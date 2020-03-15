@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cd ~/.technic/modpacks/tekkitmain/ &&\
+zip -r tekkitmain_saves_$(date '+%Y%m%d-%H%M%S').zip saves&&\
+mv *.zip ~/Mega/Documentos/arquivos.zip/
